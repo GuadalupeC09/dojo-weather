@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weathert</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="dojo">Dojo Weather</h1>
+        <h2 onclick="alert('Loading weather report....')">Burbank</h2>
+        <h2 onclick="alert('Loading weather report...')">Chicago</h2>
+        <h2 onclick="alert('Loading weather report...')">Dallas</h2>
+    </div>
+        <div class="sjc">
+        <h2>San Jose</h2>
+        <div class="fc">
+            <p>show temperature in</p>
+            <select>
+            <option value="F">°F</option>
+            <option value="C">°C</option>
+            </select>
+        </div>
+        </div>
+        <div class="line"></div>
+            <div class="boxes">
+                <div class="grey-box">
+                    <h1>Today</h1>
+                    <img src="./assets/some_rain.png" alt="some rain">
+                    <p class="par">Some rain</p>
+                    <div class="temp">
+                        <h2 class="red">75°</h2>
+                        <h2 class="blue">65°</h2>
+                    </div>
+                </div>
+                <div class="grey-box">
+                    <h1>Tomorrow</h1>
+                    <img src="./assets/some_sun.png" alt="some_sun">
+                    <p class="par">Some Sun</p>
+                    <div class="temp">
+                    <h2 class="red">80°</h2>
+                    <h2 class="blue">66°</h2>
+                    </div>
+                </div>
+                <div class="grey-box">
+                    <h1>Friday</h1>
+                    <img src="./assets/some_clouds.png" alt="some_clouds">
+                    <p class="par">some clouds</p>
+                    <div class="temp">
+                    <h2 class="red">69°</h2>
+                    <h2 class="blue">61°</h2>
+                    </div>
+                </div>
+                <div class="grey-box">
+                    <h1>Saturday</h1>
+                    <img src="./assets/some_sun.png" alt="some_sun">
+                    <p class="par">Some Sun</p>
+                    <div class="temp">
+                    <h2 class="red">78°</h2>
+                    <h2 class="blue">70°</h2>
+                    </div>
+                </div>
+            </div>
+        <div class="cookies" id="cookies">
+            <img src="./assets/cookie.png" alt="cookies">
+            <p>We use cookies (sadly no to edibles ones) to personalize content and ads, to provide social media fewatures and to analyse our traffic.<a href="cookie">Read More..</a></p>
+            <button onclick="accept()" class="accept">I Accept</button>
+        </div>
+        <script src="./script.js"></script>
+</body>
+</html> 

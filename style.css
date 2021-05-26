@@ -1,0 +1,114 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    padding:0px 300px;
+    background-color: skyblue;
+    color: whitesmoke;
+    height: 80px;
+}
+
+.dojo{
+    font-size:2.5rem;
+    margin-right:70px;
+}
+
+.sjc{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:2rem;
+    
+}
+.fc{
+    display: flex;
+    justify-content:space-evenly;
+    padding-left: 100px;
+    
+}
+
+p{
+    font-size: large;
+}
+
+select{
+    margin-left:10px;
+}
+
+.line{
+background-color: black;
+width: 1000px;
+height: 3px;
+border-radius: 100px;
+margin-left:400px
+}
+
+.boxes{
+display: flex;
+align-items: center;
+justify-content: space-around;
+background-color: rgb(255, 255, 255);
+width: 1000px;
+margin-left:400px;
+margin-top: 20px;
+height:300px;
+
+}
+.grey-box{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(235, 228, 228);
+}
+.boxes img{
+height:100px;
+border-radius:50%;
+margin-left:40px;
+}
+
+h1{
+    margin-left:30px;
+}
+.par{
+    padding-left:60px;
+}
+.temp{
+    display: flex;
+    justify-content:space-around;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.cookies{
+background-color: rgb(215, 210, 210);
+border: 3px solid black;
+width:900px;
+height:80px;
+display: flex;
+justify-content: center;
+margin-left:450px;
+align-items: center;
+margin-top: 20px;
+position: fixed;
+}
+
+button{
+    box-shadow: 3px 3px black;
+    color: white;
+    font-size: medium;
+    background-color: #9fc5f8;
+    height: 40px;
+    width: 200px;
+}
